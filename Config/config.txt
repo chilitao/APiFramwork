@@ -1,0 +1,7 @@
+[CN]
+CasePath=D:\Pyproject\PythonFile\Config\CN.xlsx
+url=https://browser-test.antuzhi.com
+T_url=http://wechat.gz.aipark.com/wechat/2.0/member/login
+T_data={'mobile': '18103369176', 'credential': '123456'}
+module=Main
+[HW]
