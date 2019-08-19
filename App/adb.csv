@@ -13,6 +13,10 @@ adb shell dumpsys battery
 
 adb shell settings get secure android_id
 
+# adb shell dumpsys activity activities | findstr "com.quqi.browser"
+
+# adb shell dumpsys activity services | findstr "com.quqi.browser"
+
 adb shell getprop ro.build.version.release 系统版本
 
 adb shell ifconfig | grep Mask    IP 地址
