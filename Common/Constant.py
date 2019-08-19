@@ -19,6 +19,6 @@ mail_host = 'smtp.qq.com'
 mail_port = 465
 mail_password ="ibfcrvbmayrxbbfa"
 mail_sender = '853826784@qq.com'
-mail_receiver = ['18103369176@163.com','chilitao@baice100.com','liuxingxing@baice100.com']
+mail_receiver = ['chilitao@baice100.com']
 timeout=10
 Basedir=os.path.abspath(os.path.join(os.getcwd(), ".."))

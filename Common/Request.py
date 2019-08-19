@@ -37,10 +37,10 @@ def api(method, url, data=None ,headers=None):
     finally:
         pass
 if __name__ == "__main__":
-
+    url="/mpage/page/video_site_list?timestamp=1565936394447&code=CN&language=zh&versionCode=7&versionName=1.0.6.105&signCode=2ee777b7e0c0ca39c592b375d5bed179"
     baseurl='https://browser-test.antuzhi.com'
-    routee='/mpage/page/nav_list?code=CN'
+    # routee='/mpage/page/nav_list?code=CN'
     headers={"Content-Type":"application/json"}
-    url=baseurl+routee
+    url=baseurl+url
     dd=api('get',url,data=None, headers=headers)
 

@@ -7,10 +7,11 @@ from Common.Report import  HTMLTestRunner
 import time,os
 if __name__ == '__main__':
     # 指定测试用例的位置
-    test_module = os.path.join(Ct.Basedir, 'ApiTestCase')
+    Basedir = os.path.abspath(os.path.join(os.getcwd(), ".."))
+    test_module = os.path.join(Basedir, 'ApiTestCase')
     discover = unittest.defaultTestLoader.discover(test_module, pattern="*.py")
     # #存放报告位置
-    dir_path=os.path.join(Ct.Basedir, 'Report\\')
+    dir_path=os.path.join(Basedir, 'Report\\')
     # #时间戳
     now=time.strftime('%Y-%m-%d %H_%M_%S')
     report_path=dir_path +now +' result.html'

@@ -1,0 +1,321 @@
+Activity Resolver Table:
+  Full MIME Types:
+      application/vnd.wap.xhtml+xml:
+        28fe223b com.quqi.browser/com.enjoy.browser.BCBrowserActivity
+      application/vnd.rn-realmedia:
+        1744bd58 com.quqi.browser/com.service.player.video.activity.PlayerLocalVideoListActivity
+      application/x-webarchive-xml:
+        28fe223b com.quqi.browser/com.enjoy.browser.BCBrowserActivity
+      video/*:
+        1744bd58 com.quqi.browser/com.service.player.video.activity.PlayerLocalVideoListActivity
+      application/xhtml+xml:
+        28fe223b com.quqi.browser/com.enjoy.browser.BCBrowserActivity
+      application/x-quicktimeplayer:
+        1744bd58 com.quqi.browser/com.service.player.video.activity.PlayerLocalVideoListActivity
+
+  Base MIME Types:
+      application:
+        1744bd58 com.quqi.browser/com.service.player.video.activity.PlayerLocalVideoListActivity (2 filters)
+        28fe223b com.quqi.browser/com.enjoy.browser.BCBrowserActivity (3 filters)
+
+  Wild MIME Types:
+      video:
+        1744bd58 com.quqi.browser/com.service.player.video.activity.PlayerLocalVideoListActivity
+
+  Schemes:
+      pushscheme:
+        28fe223b com.quqi.browser/com.enjoy.browser.BCBrowserActivity
+      inline:
+        28fe223b com.quqi.browser/com.enjoy.browser.BCBrowserActivity
+      tencent1108881035:
+        24059eb1 com.quqi.browser/com.tencent.tauth.AuthActivity
+      :
+        28fe223b com.quqi.browser/com.enjoy.browser.BCBrowserActivity
+      file:
+        1744bd58 com.quqi.browser/com.service.player.video.activity.PlayerLocalVideoListActivity
+      http:
+        28fe223b com.quqi.browser/com.enjoy.browser.BCBrowserActivity (6 filters)
+        3aa4af96 com.quqi.browser/com.enjoy.browser.defaultbrowser.activity.ResetDefaultBrowserActivity
+      quqi:
+        28fe223b com.quqi.browser/com.enjoy.browser.BCBrowserActivity
+      about:
+        28fe223b com.quqi.browser/com.enjoy.browser.BCBrowserActivity
+      https:
+        28fe223b com.quqi.browser/com.enjoy.browser.BCBrowserActivity (6 filters)
+      javascript:
+        28fe223b com.quqi.browser/com.enjoy.browser.BCBrowserActivity
+      content:
+        1744bd58 com.quqi.browser/com.service.player.video.activity.PlayerLocalVideoListActivity
+        28fe223b com.quqi.browser/com.enjoy.browser.BCBrowserActivity
+      festivalfuck:
+        28fe223b com.quqi.browser/com.enjoy.browser.BCBrowserActivity
+
+  Non-Data Actions:
+      android.intent.action.MEDIA_SEARCH:
+        28fe223b com.quqi.browser/com.enjoy.browser.BCBrowserActivity
+      bc.action.START_ACTIVITY:
+        9a2a717 com.quqi.browser/com.bc.push.activity.ActiveActivity
+      com.quqi.browser.bcfeed.action:
+        3bf45704 com.quqi.browser/com.hs.feed.ui.FeedListActivity
+      android.intent.action.MAIN:
+        aa474ed com.quqi.browser/com.enjoy.browser.activity.SplashActivity
+      android.intent.action.VIEW:
+        28fe223b com.quqi.browser/com.enjoy.browser.BCBrowserActivity (2 filters)
+      android.intent.action.DEFAULT:
+        3ff42f22 com.quqi.browser/com.enjoy.browser.activity.BarcodeActivity
+      com.enjoy.browser.SEARCH:
+        28fe223b com.quqi.browser/com.enjoy.browser.BCBrowserActivity
+      action.abort.unlock.privacy.tab:
+        28fe223b com.quqi.browser/com.enjoy.browser.BCBrowserActivity
+      com.enjoy.browser.action.BARCODE:
+        28fe223b com.quqi.browser/com.enjoy.browser.BCBrowserActivity
+      com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY:
+        37a09db3 com.quqi.browser/com.sina.weibo.sdk.share.WbShareTransActivity
+      android.intent.action.WEB_SEARCH:
+        28fe223b com.quqi.browser/com.enjoy.browser.BCBrowserActivity
+
+  MIME Typed Actions:
+      android.intent.action.VIEW:
+        1744bd58 com.quqi.browser/com.service.player.video.activity.PlayerLocalVideoListActivity
+        28fe223b com.quqi.browser/com.enjoy.browser.BCBrowserActivity (2 filters)
+
+Receiver Resolver Table:
+  Schemes:
+      file:
+        ae1df70 com.quqi.browser/com.enjoy.browser.download.DownloadReceiver
+
+  Non-Data Actions:
+      android.intent.action.SCREEN_OFF:
+        34e072e9 com.quqi.browser/com.daemon.live.base.PDR
+      android.intent.action.BATTERY_OKAY:
+        2fca1b6e com.quqi.browser/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+      android.intent.action.DOWNLOAD_WAKEUP:
+        ae1df70 com.quqi.browser/com.enjoy.browser.download.DownloadReceiver
+      com.xiaomi.mipush.MESSAGE_ARRIVED:
+        127d620f com.quqi.browser/com.bc.push.channel.xiaomi.MiMessageReceiver
+      android.intent.action.ACTION_POWER_DISCONNECTED:
+        34e072e9 com.quqi.browser/com.daemon.live.base.PDR
+        39dd829c com.quqi.browser/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+      android.intent.action.DOWNLOAD_NOTIFICATION_CLICKED:
+        ae1df70 com.quqi.browser/com.enjoy.browser.download.DownloadReceiver
+      com.xiaomi.mipush.ERROR:
+        127d620f com.quqi.browser/com.bc.push.channel.xiaomi.MiMessageReceiver
+      android.intent.action.MEDIA_MOUNTED:
+        34e072e9 com.quqi.browser/com.daemon.live.base.PDR
+      com.huawei.android.push.intent.REGISTRATION:
+        1c454a5 com.quqi.browser/com.bc.push.channel.huawei.HuaweiPlatformReceiver
+      android.intent.action.SCREEN_ON:
+        34e072e9 com.quqi.browser/com.daemon.live.base.PDR
+      android.intent.action.DOWNLOAD_HIDE:
+        ae1df70 com.quqi.browser/com.enjoy.browser.download.DownloadReceiver
+      android.intent.action.DOWNLOAD_LIST:
+        ae1df70 com.quqi.browser/com.enjoy.browser.download.DownloadReceiver
+      android.intent.action.DOWNLOAD_OPEN:
+        ae1df70 com.quqi.browser/com.enjoy.browser.download.DownloadReceiver
+      android.intent.action.DEVICE_STORAGE_LOW:
+        2f00807a com.quqi.browser/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+      android.net.conn.CONNECTIVITY_CHANGE:
+        2b8102b com.quqi.browser/com.bc.push.BootReceiver
+        ae1df70 com.quqi.browser/com.enjoy.browser.download.DownloadReceiver
+        298e2c88 com.quqi.browser/com.xiaomi.push.service.receivers.NetworkStatusReceiver
+        3c4a9621 com.quqi.browser/androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+      com.huawei.intent.action.PUSH_DELAY_NOTIFY:
+        1c454a5 com.quqi.browser/com.bc.push.channel.huawei.HuaweiPlatformReceiver
+      android.intent.action.DEVICE_STORAGE_OK:
+        2f00807a com.quqi.browser/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+      com.meizu.flyme.push.intent.UNREGISTER.FEEDBACK:
+        24062a46 com.quqi.browser/com.bc.push.channel.meizu.MeizuMessageReceiver
+      bc.action.START_SERVICE:
+        2b8102b com.quqi.browser/com.bc.push.BootReceiver
+      com.huawei.android.push.intent.RECEIVE:
+        1c454a5 com.quqi.browser/com.bc.push.channel.huawei.HuaweiPlatformReceiver
+      com.meizu.c2dm.intent.RECEIVE:
+        24062a46 com.quqi.browser/com.bc.push.channel.meizu.MeizuMessageReceiver
+      com.vivo.pushclient.action.RECEIVE:
+        2fa58407 com.quqi.browser/com.bc.push.channel.vivo.VivoMessageReceiver
+      com.meizu.cloud.pushservice.action.PUSH_SERVICE_START:
+        1c1d8934 com.quqi.browser/com.meizu.cloud.pushsdk.SystemReceiver
+      com.meizu.flyme.push.intent.MESSAGE:
+        24062a46 com.quqi.browser/com.bc.push.channel.meizu.MeizuMessageReceiver
+      com.meizu.c2dm.intent.REGISTRATION:
+        24062a46 com.quqi.browser/com.bc.push.channel.meizu.MeizuMessageReceiver
+      android.intent.action.BATTERY_LOW:
+        2fca1b6e com.quqi.browser/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+      android.intent.action.TIMEZONE_CHANGED:
+        a99735d com.quqi.browser/androidx.work.impl.background.systemalarm.RescheduleReceiver
+      android.intent.action.TIME_SET:
+        a99735d com.quqi.browser/androidx.work.impl.background.systemalarm.RescheduleReceiver
+      android.intent.action.PACKAGE_REMOVED:
+        34e072e9 com.quqi.browser/com.daemon.live.base.PDR
+      android.intent.action.BOOT_COMPLETED:
+        2b8102b com.quqi.browser/com.bc.push.BootReceiver
+        a99735d com.quqi.browser/androidx.work.impl.background.systemalarm.RescheduleReceiver
+      android.intent.action.USER_PRESENT:
+        2b8102b com.quqi.browser/com.bc.push.BootReceiver
+        34e072e9 com.quqi.browser/com.daemon.live.base.PDR
+      android.intent.action.ACTION_POWER_CONNECTED:
+        34e072e9 com.quqi.browser/com.daemon.live.base.PDR
+        39dd829c com.quqi.browser/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+      com.xiaomi.push.PING_TIMER:
+        1b6aa4d2 com.quqi.browser/com.xiaomi.push.service.receivers.PingReceiver
+      com.xiaomi.mipush.RECEIVE_MESSAGE:
+        127d620f com.quqi.browser/com.bc.push.channel.xiaomi.MiMessageReceiver
+      com.daemon.live.action.PUSH_DAEMON:
+        34e072e9 com.quqi.browser/com.daemon.live.base.PDR
+      android.intent.action.PACKAGE_ADDED:
+        34e072e9 com.quqi.browser/com.daemon.live.base.PDR
+      com.meizu.flyme.push.intent.REGISTER.FEEDBACK:
+        24062a46 com.quqi.browser/com.bc.push.channel.meizu.MeizuMessageReceiver
+      androidx.work.impl.background.systemalarm.UpdateProxies:
+        370c59a3 com.quqi.browser/androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+
+Service Resolver Table:
+  Non-Data Actions:
+      bc.action.GET_MESSAGE_SERVICE:
+        2aa404a0 com.quqi.browser/com.bc.push.service.WS
+      com.enjoy.browser.permanentnotification.service.PermanentService:
+        14fee859 com.quqi.browser/com.enjoy.browser.permanentnotification.service.PermanentService
+      bc.action.START_SERVICE:
+        2aa404a0 com.quqi.browser/com.bc.push.service.WS
+      com.ss.android.socialbase.downloader.remote:
+        292a3c1e com.quqi.browser/com.ss.android.socialbase.downloader.downloader.IndependentProcessDownloadService
+      com.google.firebase.MESSAGING_EVENT:
+        280ecff com.quqi.browser/com.enjoy.browser.service.MyFirebaseMessagingService
+      com.quqi.browser.messenger:
+        2554cacc com.quqi.browser/com.blankj.utilcode.util.MessengerUtils$ServerService
+      com.xmpp.action.INVOKE:
+        2aa404a0 com.quqi.browser/com.bc.push.service.WS
+      com.coloros.mcs.action.RECEIVE_MCS_MESSAGE:
+        20acb115 com.quqi.browser/com.coloros.mcssdk.PushService
+
+Permissions:
+  Permission [com.quqi.browser.permission.MIPUSH_RECEIVE] (12b9fc2a):
+    sourcePackage=com.quqi.browser
+    uid=10183 gids=[] type=0 prot=signature
+    packageSetting=PackageSetting{16815a1b com.quqi.browser/10183}
+    perm=Permission{a69c7b8 com.quqi.browser.permission.MIPUSH_RECEIVE}
+  Permission [com.quqi.browser.permission.ACCESS_BC] (1a344991):
+    sourcePackage=com.quqi.browser
+    uid=10183 gids=[] type=0 prot=normal
+    packageSetting=PackageSetting{16815a1b com.quqi.browser/10183}
+    perm=Permission{dd3b0f6 com.quqi.browser.permission.ACCESS_BC}
+  Permission [com.quqi.browser.push.permission.MESSAGE] (37517cf7):
+    sourcePackage=com.quqi.browser
+    uid=10183 gids=[] type=0 prot=signature
+    packageSetting=PackageSetting{16815a1b com.quqi.browser/10183}
+    perm=Permission{3fcfa764 com.quqi.browser.push.permission.MESSAGE}
+  Permission [com.quqi.browser.permission.C2D_MESSAGE] (bc2edcd):
+    sourcePackage=com.quqi.browser
+    uid=10183 gids=[] type=0 prot=signature
+    packageSetting=PackageSetting{16815a1b com.quqi.browser/10183}
+    perm=Permission{2001e682 com.quqi.browser.permission.C2D_MESSAGE}
+
+Registered ContentProviders:
+  com.quqi.browser/android.support.v4.content.FileProvider:
+    Provider{3f96f193 com.quqi.browser/android.support.v4.content.FileProvider}
+  com.quqi.browser/com.blankj.utilcode.util.Utils$FileProvider4UtilCode:
+    Provider{3b91d5d0 com.quqi.browser/com.blankj.utilcode.util.Utils$FileProvider4UtilCode}
+  com.quqi.browser/com.enjoy.browser.download.DownloadProvider:
+    Provider{3b1d99c9 com.quqi.browser/com.enjoy.browser.download.DownloadProvider}
+  com.quqi.browser/com.enjoy.browser.db.BrowserProvider:
+    Provider{2aebe8ce com.quqi.browser/com.enjoy.browser.db.BrowserProvider}
+  com.quqi.browser/com.huawei.hms.update.provider.UpdateProvider:
+    Provider{4b513ef com.quqi.browser/com.huawei.hms.update.provider.UpdateProvider}
+  com.quqi.browser/com.bytedance.sdk.openadsdk.TTFileProvider:
+    Provider{7067efc com.quqi.browser/com.bytedance.sdk.openadsdk.TTFileProvider}
+  com.quqi.browser/com.enjoy.browser.permanentnotification.provider.NotificationFileProvider:
+    Provider{2b5d0985 com.quqi.browser/com.enjoy.browser.permanentnotification.provider.NotificationFileProvider}
+  com.quqi.browser/android.arch.lifecycle.ProcessLifecycleOwnerInitializer:
+    Provider{3161c3da com.quqi.browser/android.arch.lifecycle.ProcessLifecycleOwnerInitializer}
+  com.quqi.browser/com.bc.provider.CloverFileProvider:
+    Provider{24e9000b com.quqi.browser/com.bc.provider.CloverFileProvider}
+  com.quqi.browser/com.bytedance.sdk.openadsdk.multipro.TTMultiProvider:
+    Provider{8ba8ee8 com.quqi.browser/com.bytedance.sdk.openadsdk.multipro.TTMultiProvider}
+
+ContentProvider Authorities:
+  [com.quqi.browser.fileprovider]:
+    Provider{3f96f193 com.quqi.browser/android.support.v4.content.FileProvider}
+      applicationInfo=ApplicationInfo{3e69b901 com.quqi.browser}
+  [com.quqi.browser.provider.download]:
+    Provider{3b1d99c9 com.quqi.browser/com.enjoy.browser.download.DownloadProvider}
+      applicationInfo=ApplicationInfo{3e69b901 com.quqi.browser}
+  [com.quqi.browser.provider.notification]:
+    Provider{2b5d0985 com.quqi.browser/com.enjoy.browser.permanentnotification.provider.NotificationFileProvider}
+      applicationInfo=ApplicationInfo{3e69b901 com.quqi.browser}
+  [com.quqi.browser.TTMultiProvider]:
+    Provider{8ba8ee8 com.quqi.browser/com.bytedance.sdk.openadsdk.multipro.TTMultiProvider}
+      applicationInfo=ApplicationInfo{3e69b901 com.quqi.browser}
+  [com.quqi.browser.db.provider]:
+    Provider{2aebe8ce com.quqi.browser/com.enjoy.browser.db.BrowserProvider}
+      applicationInfo=ApplicationInfo{3e69b901 com.quqi.browser}
+  [com.quqi.browser.TTFileProvider]:
+    Provider{7067efc com.quqi.browser/com.bytedance.sdk.openadsdk.TTFileProvider}
+      applicationInfo=ApplicationInfo{3e69b901 com.quqi.browser}
+  [com.quqi.browser.provider.CloverFileProvider]:
+    Provider{24e9000b com.quqi.browser/com.bc.provider.CloverFileProvider}
+      applicationInfo=ApplicationInfo{3e69b901 com.quqi.browser}
+  [com.quqi.browser.lifecycle-trojan]:
+    Provider{3161c3da com.quqi.browser/android.arch.lifecycle.ProcessLifecycleOwnerInitializer}
+      applicationInfo=ApplicationInfo{3e69b901 com.quqi.browser}
+  [com.quqi.browser.hms.update.provider]:
+    Provider{4b513ef com.quqi.browser/com.huawei.hms.update.provider.UpdateProvider}
+      applicationInfo=ApplicationInfo{3e69b901 com.quqi.browser}
+  [com.quqi.browser.utilcode.provider]:
+    Provider{3b91d5d0 com.quqi.browser/com.blankj.utilcode.util.Utils$FileProvider4UtilCode}
+      applicationInfo=ApplicationInfo{3e69b901 com.quqi.browser}
+
+Key Set Manager:
+  [com.quqi.browser]
+      Signing KeySets: 335
+
+Packages:
+  Package [com.quqi.browser] (16815a1b):
+    userId=10183 gids=[3003, 1028, 1015]
+    pkg=Package{212843a6 com.quqi.browser}
+    codePath=/data/app/com.quqi.browser-1
+    resourcePath=/data/app/com.quqi.browser-1
+    legacyNativeLibraryDir=/data/app/com.quqi.browser-1/lib
+    primaryCpuAbi=armeabi-v7a
+    secondaryCpuAbi=null
+    versionCode=7 targetSdk=28
+    versionName=1.0.6.105
+    splits=[base]
+    applicationInfo=ApplicationInfo{3e69b901 com.quqi.browser}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP LARGE_HEAP ]
+    pkgFlagsEx=[ ]
+    dataDir=/data/data/com.quqi.browser
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesOptionalLibraries:
+      org.apache.http.legacy
+    timeStamp=2019-08-16 17:24:02
+    firstInstallTime=2019-08-16 17:24:03
+    lastUpdateTime=2019-08-16 17:24:03
+    signatures=PackageSignatures{1b2591e7 [11db194]}
+    permissionsFixed=true haveGids=true installStatus=1
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP LARGE_HEAP ]
+    User 0:  installed=true hidden=false stopped=false notLaunched=false enabled=0
+      enabledComponents:
+      androidx.work.impl.background.systemalarm.SystemAlarmService
+      androidx.work.impl.background.systemalarm.RescheduleReceiver
+    grantedPermissions:
+      android.permission.WRITE_SETTINGS
+      android.permission.ACCESS_FINE_LOCATION
+      com.quqi.browser.permission.MIPUSH_RECEIVE
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.GET_TASKS
+      android.permission.INTERNET
+      android.permission.REORDER_TASKS
+      android.permission.READ_EXTERNAL_STORAGE
+      android.permission.ACCESS_COARSE_LOCATION
+      android.permission.READ_PHONE_STATE
+      android.permission.CHANGE_WIFI_STATE
+      android.permission.FLASHLIGHT
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.CAMERA
+      com.quqi.browser.push.permission.MESSAGE
+      android.permission.GET_ACCOUNTS
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.VIBRATE
+      com.quqi.browser.permission.C2D_MESSAGE
+      android.permission.ACCESS_WIFI_STATE
+      android.permission.WAKE_LOCK
