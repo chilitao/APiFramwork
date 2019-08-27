@@ -1,0 +1,47 @@
+最近在学习python的过程中接触到了python对文件的读取。python读取文件一般情况是利用open()函数以及read()函数来完成：
+
+f = open(filename,'r')
+f.read()
+这种方法读取小文件，即读取远远大小小于内存的文件显然没有什么问题。但是如果是将一个10G大小的日志文件读取，即文件大于内存的大小，这么处理就有问题了，会造成MemoryError ... 也就是发生内存溢出。
+
+发生这种错误的原因在于，read()方法执行操作是一次性的都读入内存中，显然文件大于内存就会报错。
+
+解决方法：
+
+这里发现跟read()类似的还有其他的方法：read(参数)、readline()、readlines()
+
+(1)read(参数)：通过参数指定每次读取的大小长度,这样就避免了因为文件太大读取出问题。
+
+while True:
+    block = f.read(1024)
+    if not block:
+        break
+ (2)readline()：每次读取一行
+
+while True:
+    line = f.readline()
+    if not line:
+        break
+
+
+(3)readlines()：读取全部的行，构成一个list，通过list来对文件进行处理，但是这种方式依然会造成MemoyError
+
+for line in f.readlines():
+    ....
+
+
+以上基本分析了python中读取文件的方法，但是总感觉不能达到python中所强调的优雅，后来发现了还有下面的解决方法：
+
+pythonic（我理解的是很python的python代码）的解决办法：
+
+with open(filename, 'r') as flie:
+    for line in file:
+        ....
+
+
+对可迭代对象file进行迭代，这样会自动的使用buffered IO以及内存管理，这样就不必担心大文件问题了。
+
+后来，又发现了一个模块：linecache，这个模块也可以解决大文件读取的问题，并且可以指定读取哪一行，
+
+# 输出第2行
+text = linecache.getline(filename, 2)
