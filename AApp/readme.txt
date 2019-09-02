@@ -1,0 +1,1 @@
+python -m uiautomator2 init  #Æô¶¯webµ÷ÊÔ
